@@ -1,0 +1,21 @@
+band	comparison	n	mean_A	mean_B	A_greater_in	wilcoxon_p
+delta	tripolar: overt vs covert	16	77.21	69.44	15/16	0.0001
+delta	disc: overt vs covert	16	49.5	36.81	14/16	0.0006
+delta	Overt: tripolar vs disc	16	77.21	49.5	16/16	0.0
+delta	Covert: tripolar vs disc	16	69.44	36.81	15/16	0.0001
+theta	tripolar: overt vs covert	16	12.17	14.53	1/16	0.0001
+theta	disc: overt vs covert	16	13.96	15.45	6/16	0.1297
+theta	Overt: tripolar vs disc	16	12.17	13.96	5/16	0.0386
+theta	Covert: tripolar vs disc	16	14.53	15.45	6/16	0.4332
+alpha	tripolar: overt vs covert	16	5.02	7.9	1/16	0.0001
+alpha	disc: overt vs covert	16	10.53	16.39	2/16	0.0002
+alpha	Overt: tripolar vs disc	16	5.02	10.53	1/16	0.0002
+alpha	Covert: tripolar vs disc	16	7.9	16.39	2/16	0.0002
+beta	tripolar: overt vs covert	16	4.31	6.48	2/16	0.0004
+beta	disc: overt vs covert	16	16.99	21.8	4/16	0.0027
+beta	Overt: tripolar vs disc	16	4.31	16.99	0/16	0.0
+beta	Covert: tripolar vs disc	16	6.48	21.8	1/16	0.0001
+gamma	tripolar: overt vs covert	16	1.29	1.66	6/16	0.5619
+gamma	disc: overt vs covert	16	9.02	9.56	9/16	0.5966
+gamma	Overt: tripolar vs disc	16	1.29	9.02	0/16	0.0
+gamma	Covert: tripolar vs disc	16	1.66	9.56	2/16	0.0002

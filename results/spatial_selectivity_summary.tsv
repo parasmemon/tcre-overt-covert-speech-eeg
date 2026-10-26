@@ -1,0 +1,9 @@
+condition	metric	n_subjects	tripolar_mean	tripolar_sd	disc_mean	disc_sd	tripolar_lower_in	wilcoxon_p
+Overt	all_pairs_r	16	0.179	0.086	0.309	0.112	15/16	0.0001
+Overt	within_site_r	16	0.649	0.159	0.944	0.039	16/16	0.0
+Overt	between_site_r	16	0.048	0.093	0.132	0.143	14/16	0.001
+Overt	tripolar_vs_disc_same_electrode_r	16	0.567	0.089				
+Covert	all_pairs_r	16	0.156	0.072	0.28	0.112	15/16	0.0001
+Covert	within_site_r	16	0.611	0.18	0.937	0.04	16/16	0.0004
+Covert	between_site_r	16	0.028	0.064	0.095	0.143	11/16	0.0231
+Covert	tripolar_vs_disc_same_electrode_r	16	0.529	0.121				

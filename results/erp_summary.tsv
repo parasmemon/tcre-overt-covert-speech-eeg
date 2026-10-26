@@ -1,0 +1,17 @@
+modality	condition	site	n	peak_mean	peak_sd	latency_median_s
+disc	Covert	F3	16	0.735	0.288	0.194
+disc	Covert	F4	16	0.742	0.289	0.2
+disc	Covert	P5	16	0.735	0.23	0.246
+disc	Covert	P6	16	0.874	0.47	0.246
+disc	Overt	F3	16	1.101	0.577	0.6
+disc	Overt	F4	16	1.104	0.598	0.422
+disc	Overt	P5	16	0.805	0.263	0.26
+disc	Overt	P6	16	0.885	0.477	0.244
+tripolar	Covert	F3	16	0.636	0.396	0.254
+tripolar	Covert	F4	16	0.648	0.371	0.298
+tripolar	Covert	P5	16	0.762	0.399	0.26
+tripolar	Covert	P6	16	0.976	0.525	0.286
+tripolar	Overt	F3	16	1.244	1.031	0.654
+tripolar	Overt	F4	16	1.233	0.901	0.696
+tripolar	Overt	P5	16	0.83	0.426	0.304
+tripolar	Overt	P6	16	1.049	0.656	0.276

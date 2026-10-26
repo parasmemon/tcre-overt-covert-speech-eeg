@@ -1,0 +1,3 @@
+condition	n	tripolar_mean_db	tripolar_sd_db	disc_mean_db	disc_sd_db	tripolar_higher_in	wilcoxon_p
+Overt	16	13.1	4.9	10.89	3.66	12/16	0.0054
+Covert	16	9.42	4.4	7.58	3.8	13/16	0.0027

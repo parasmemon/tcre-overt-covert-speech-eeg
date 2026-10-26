@@ -1,0 +1,13 @@
+band	test	n	mean_pct	sd_pct	negative_in	wilcoxon_p
+alpha	tripolar Overt: change vs 0	16	-9.3	30.6	9/16	0.2522
+alpha	tripolar Covert: change vs 0	16	-11.7	28.7	12/16	0.0934
+alpha	disc Overt: change vs 0	16	-13.6	33.2	9/16	0.2312
+alpha	disc Covert: change vs 0	16	14.9	156.0	12/16	0.0507
+alpha	Overt: tripolar vs disc	16	-9.3 vs -13.6			0.0052
+alpha	Covert: tripolar vs disc	16	-11.7 vs 14.9			0.0076
+beta	tripolar Overt: change vs 0	16	8.1	9.8	5/16	0.0063
+beta	tripolar Covert: change vs 0	16	-1.4	9.2	11/16	0.2744
+beta	disc Overt: change vs 0	16	15.2	16.1	5/16	0.0052
+beta	disc Covert: change vs 0	16	13.4	67.4	11/16	0.2744
+beta	Overt: tripolar vs disc	16	8.1 vs 15.2			0.0013
+beta	Covert: tripolar vs disc	16	-1.4 vs 13.4			0.2744
