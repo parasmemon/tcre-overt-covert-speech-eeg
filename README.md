@@ -5,7 +5,7 @@ Code and results for the technical validation of the dataset
 > **An EEG Dataset of Overt and Covert Speech Recorded with Tripolar Concentric Ring Electrodes**
 > Paras Qadir Memon, Shoaib Memon, Walter G. Besio, Charles W. Anderson (submitted to *Sensors*).
 
-The dataset (BIDS format) is available on OpenNeuro: accession **ds008895** (https://openneuro.org/datasets/ds008895).
+The dataset (BIDS format) is available on OpenNeuro: accession **ds008895**, version **1.1.0** (https://doi.org/10.18112/openneuro.ds008895.v1.1.0).
 It contains EEG from 16 adults who named pictures aloud (overt) or silently (covert), recorded with
 four arrays of tripolar concentric ring electrodes (TCREs) centred on F4, P6, F3 and P5. Every electrode
 provides a tripolar (Laplacian) signal on the odd channels and an emulated disc signal on the even channels.
