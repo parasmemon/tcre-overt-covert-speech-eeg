@@ -27,7 +27,7 @@ BASELINE = (-0.5, 0.0)
 EVENT_ID = {"Stimulus/Overt": 1, "Stimulus/Covert": 2}
 PIPELINE = "cleaned-epochs"
 MAX_SAMPLES = 30_000_000                   
-SOURCE_DATASET_URL = "https://openneuro.org/datasets/ds008895"
+SOURCE_DATASET_URL = "https://openneuro.org/datasets/dsXXXXXX"  # <-- put your OpenNeuro ID/DOI
 CODE_URL = "https://github.com/parasmemon/tcre-overt-covert-speech-eeg"
 # -------------------------------------------------------------------------
 

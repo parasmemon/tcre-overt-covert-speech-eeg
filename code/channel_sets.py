@@ -1,24 +1,3 @@
-"""
-Shared channel definitions for the TCRE overt/covert speech dataset.
-
-Channel convention (recording notes): electrode k is recorded on channels 2k-1 and 2k;
-  odd channel  (2k-1) = tripolar (TCRE) signal
-  even channel (2k)   = emulated disc signal (outer ring) of the same electrode
-Scalp sites in channel order (right hemisphere first): F4, P6, F3, P5, each block = one array.
-
-Electrodes per array (= per site, F4/P6/F3/P5), from the number of channels:
-  40 channels -> 5/5/5/5   (sub-01; and sub-07, 08, 09, 14, 15, 16 in the cleaned epochs)
-  42 channels -> 5/5/5/5   (raw data of sub-07, 08, 09, 14, 15, 16: channels 41-42 = EOG)
-  56 channels -> 7/7/7/7   (sub-05, 06)
-  64 channels -> 8/8/8/8   (sub-02, 03, 04, 10: all 64 channels are array channels)
-Exception (recording log, confirmed by the signal correlations):
-  sub-11, 12, 13 -> 8/7/8/8 (7 electrodes in P6): F4 ch1-16, P6 ch17-30, F3 ch31-46, P5 ch47-62;
-                    raw channels 63-64 = EOG; the cleaned epochs have 62 channels.
-
-The cleaned-epochs derivative contains array channels only. In the raw data, the EOG channels (two standard disc electrodes, above and to
-the right of one eye) lie
-after the array electrodes and are never selected by array_electrodes().
-"""
 
 import pickle
 from pathlib import Path
@@ -29,8 +8,7 @@ SITES = ["F4", "P6", "F3", "P5"]
 ELECTRODES_PER_SITE = {40: 5, 42: 5, 56: 7, 64: 8}
 LAYOUT = {s: (8, 7, 8, 8) for s in ["sub-11", "sub-12", "sub-13"]}   # per-site counts, F4/P6/F3/P5
 
-NON_ARRAY = {}          # no array channel is excluded (see docstring)
-
+NON_ARRAY = {}         
 
 def array_electrodes(sub, n_channels):
     """Array electrodes of one recording.
